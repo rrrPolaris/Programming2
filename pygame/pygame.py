@@ -1,10 +1,6 @@
-import pygame
-
 # rectangle_practice.py
 # apply objects/classes
-
-import pygame
-
+from pygame import pygame
 # ----- CONSTANTS
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
@@ -51,7 +47,7 @@ def main():
         # ----- DRAW
         screen.fill(BLACK)
         pygame.draw.rect(screen, rectangle.colour, (rectangle.x, rectangle.y, rectangle.width, rectangle.height))
-        pygame.draw.circle(screen,(0,255,0),(10,100),50)
+        pygame.draw.circle(screen, (0, 255, 0), (10, 100), 50)
 
         # ----- UPDATE
         pygame.display.flip()
