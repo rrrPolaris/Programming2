@@ -110,7 +110,7 @@ def main():
 #        the dvd logo (like the Office Segment)
 
 import random
-import pygame.pygame
+import pygame
 
 # ----- CONSTANTS
 BLACK = (0, 0, 0)
