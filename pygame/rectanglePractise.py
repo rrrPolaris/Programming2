@@ -36,10 +36,6 @@ def main():
     clock = pygame.time.Clock()
 
     rectangle = Rectangle()
-    # TODO: CREATE ANOTHER RECTANGLE
-    #    CHANGE ITS PROPERTIES
-    #    reminder use .notation to change properties
-    #    i.e. rectangle_two.x = 100
     rectangle_two = Rectangle()
     rectangle_two.width, rectangle_two.height = (150, 200)
     rectangle_two.x, rectangle_two.y = (50, 10)
