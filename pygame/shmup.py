@@ -22,6 +22,7 @@ class Player(pygame.sprite.Sprite):
         super().__init__()
 
         self.image = pygame.image.load("./images/galaga_ship.png")
+        self.image = pygame.transform.scale(self.image, (64,64))
 
         self.rect = self.image.get_rect()
 
@@ -65,7 +66,7 @@ def main():
 
     # Populate sprite Groups
     enemy = Enemy()
-    enemy.rect.y = 150                     # testing
+    enemy.rect.y = 150              # testing
     all_sprites.add(enemy)
     enemy_sprites.add(enemy)
 
