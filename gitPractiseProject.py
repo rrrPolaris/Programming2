@@ -9,5 +9,6 @@ def main():
     if n in [1,2]:
        print("The first fnumber ")
 
+
 if __name__ == "__main__":
     main()
